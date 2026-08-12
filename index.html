@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Something For You 💗</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- First Screen -->
+        <div id="startScreen" class="card">
+
+            <div class="heart">💗</div>
+
+            <h1>Hello po! 🌸</h1>
+
+            <p>
+                I made something special for you...
+            </p>
+
+            <button onclick="startConfession()">
+                Open it 💌
+            </button>
+
+        </div>
+
+
+        <!-- Question Screen -->
+        <div id="questionScreen" class="card hidden">
+
+            <div class="heart">🥺</div>
+
+            <h1>I have a question...</h1>
+
+            <p>
+                Do you have someone rn?
+            </p>
+
+            <div class="buttons">
+
+                <button id="yesButton" onclick="sayYes()">
+                    YES 💗
+                </button>
+
+                <button id="noButton" onclick="moveNoButton()">
+                    NO 😭
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Confession Screen -->
+        <div id="confessionScreen" class="card hidden">
+
+            <div class="heart">💖</div>
+
+            <h1>Okay... I have to tell you something.</h1>
+
+            <p id="typingText"></p>
+
+            <button onclick="showFinalMessage()">
+                Continue 💌
+            </button>
+
+        </div>
+
+
+        <!-- Final Screen -->
+        <div id="finalScreen" class="card hidden">
+
+            <div class="heart">💞</div>
+
+            <h1>Thank You! 🥰</h1>
+
+            <p>
+                Whatever your answer is,
+                I'm really glad I got the courage
+                to tell you how I feel.
+            </p>
+
+            <h2>❤️ You're special to me. ❤️</h2>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
