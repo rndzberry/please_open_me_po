@@ -39,24 +39,13 @@ function moveNoButton() {
 
 
 const confession = `
-I've been wanting to tell you this for a while...
+Hi, I know you probably don’t know me, but I’ve been quietly noticing you for quite some time now. 
+I hope this doesn’t come across as strange, 
+but I have to admit… you’ve caught my attention.
 
-I don't really know when it started,
-but somewhere along the way,
-you became someone really special to me.
-
-I love talking to you,
-seeing you smile,
-and simply having you around.
-
-So instead of keeping it to myself...
-
-I decided to be brave today.
-
-I like you. ❤️
-
-And if you're willing,
-I'd really love to spend some time with you.
+Perhaps it’s a little unexpected coming from someone you barely know,
+but I’ve developed a genuine admiration for you.
+There’s just something about you that I find incredibly captivating.
 `;
 
 let index = 0;
